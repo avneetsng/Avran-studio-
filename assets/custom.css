@@ -1,0 +1,37 @@
+/*// =============================================================================
+// Ella Custom CSS - Customize The Style For Layout
+// =============================================================================
+
+// =============================================================================
+//
+// IMPORTANT DISCLAIMER
+// Shopify is notifying shop owners about the need to convert scss files to css files.
+// Please use only CSS to style the layout.
+//
+// =============================================================================*/
+
+.footer__content-bottom {
+  position: relative;
+}
+.footer__content-bottom:after {
+  content: "";
+  width: 90%;
+  height: 1px;
+  background: #4d3019;
+  opacity: 0.2;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+/* ------------------------------- */
+
+.arrow-icon svg#icon-chevron-right{
+  position: static !Important;
+}
+.card .title-wrapper{
+      display: flex;
+}
+
